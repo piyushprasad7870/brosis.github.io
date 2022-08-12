@@ -1,0 +1,118 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mouse Memoirs';
+  background-color: #462a68;
+  color: rgb(224, 208, 118);
+  word-spacing: 2px;
+  letter-spacing: 2px;
+ }
+ a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+ .navbar :hover{
+  color: gold;
+ }
+
+ /* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8em;
+  padding-top: 50px;
+  width: 95%;
+ }
+ .nav-links a {
+  color: #9C7E46;
+ }
+ .navbar li{
+  display: inline-block;
+ }
+ /* LOGO */
+ .logo {
+  display: inline-block;
+      position: absolute;
+      left: 10px;
+      top: 0px;
+ }
+ .logo img{
+  width: 100px;
+ }
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+ }
+ .menu li {
+  padding: 1px 9px 5px;
+ }
+ .regi{
+  display: flex;
+  background-color: gold;
+  color: #452865;
+  border-radius: 5px;
+  border: 2px solid gold;
+  margin-bottom: 30px;
+ }
+
+.calculator {
+  padding: 50px 50px 20px 50px;
+  text-align: center;
+  margin-left: 250px;
+  /* margin-top: 50px; */
+  background-color:#462a68;
+  width: 50%;
+}
+
+.name-box {
+  padding: 12px 14px;
+  width: 40%
+}
+
+/* buttons */
+.buttons {
+  color: rgb(224, 208, 118);
+  background-color: #462a68;
+  border: solid;
+  border-color: #462a68;
+  cursor: pointer;
+  margin: 10px 10px;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+.buttons:hover {
+  box-shadow: 5px 3px #462a68;
+  opacity: 1;
+  color:rgb(224, 208, 118) ;
+}
+/* Social Media  */
+.social-media{ opacity:0.5;
+  cursor:pointer;
+  padding: 10px 3px 0 4px}
+  .social-media:hover{opacity: 1;}
+ a{color: rgb(224, 208, 118);}
+ /* copy right  */
+ p{opacity: 1;
+ font-size: 1rem;}
+ #notice{opacity: 0.5;
+ font-size:.8rem;}
+/* Media Query */
+@media (max-width:600px) {
+  .buttons{width:30%;
+  border-radius: 5px;}
+  .calculator {width: 60%;
+    padding: 10px 20px 10px 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+}
