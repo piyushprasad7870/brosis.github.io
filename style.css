@@ -1,14 +1,15 @@
-/* UTILITIES */
-* {
+
+html{
+  font-size: 10px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mouse Memoirs';
     background-color: #462a68;
     color: rgb(224, 208, 118);
-    word-spacing: 2px;
-    letter-spacing: 2px;
-   }
+    /* word-spacing: 2px;
+    letter-spacing: 2px; */
+}
    a {
     text-decoration: none;
    }
@@ -21,12 +22,12 @@
 
    /* NAVBAR STYLING STARTS */
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 8em;
-    padding-top: 50px;
-    width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0rem;
+  padding-top: 0rem;
+  width: 0rem;
    }
    .nav-links a {
     color: #9C7E46;
@@ -37,53 +38,46 @@
    /* LOGO */
    .logo {
     display: inline-block;
-        position: absolute;
-        left: 10px;
-        top: 0px;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
    }
    .logo img{
-    width: 100px;
+    width: 6rem;
+    padding-right: 0.5rem;
    }
    /* NAVBAR MENU */
    .menu {
     display: flex;
-    gap: 1em;
-    font-size: 18px;
+    gap: 0rem;
+    font-size: 2rem;
    }
    .menu li {
-    padding: 1px 9px 5px;
+    padding: 1rem 4rem 1rem;
    }
    .regi{
     display: flex;
-    background-color: gold;
     color: #452865;
-    border-radius: 5px;
-    border: 2px solid gold;
-    margin-bottom: 30px;
+    margin-bottom: 0rem;
    }
    .container{
     display: flex;
    }
    .v{
     position: relative;
-    width: 30%;
-    margin: 5px, 5px 5px 5px;
+    width: 30rem;
    }
    .p{
     position: relative;
-    width: 30%;
-    margin: 5px, 5px 5px 5px;
+    width: 30rem;
 
    }
 .bw{
-    display: block;
-    margin-top: 20px;
-  /* margin-left: auto;
-  margin-right: auto; */
-   width: 40%;
-  height: 20%;
- 
-  border-radius: 30px;
+  display: block;
+  margin-top: 1rem;
+  width: 43rem;
+  height: 26rem;
+  border-radius: 12rem;
    
 }
 .bw {
@@ -99,7 +93,7 @@
       -webkit-transform: scale(1.01);
     }
 
-    p{
+    h2{
       text-align: center;
+      
     }
-    
