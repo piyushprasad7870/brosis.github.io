@@ -1,15 +1,13 @@
-
-html{
-  font-size: 10px;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mouse Memoirs';
     background-color: #462a68;
     color: rgb(224, 208, 118);
-    /* word-spacing: 2px;
-    letter-spacing: 2px; */
-}
+    word-spacing: 2px;
+    letter-spacing: 2px;
+   }
    a {
     text-decoration: none;
    }
@@ -22,12 +20,12 @@ html{
 
    /* NAVBAR STYLING STARTS */
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 0rem;
-  padding-top: 0rem;
-  width: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8em;
+    padding-top: 50px;
+    width: 95%;
    }
    .nav-links a {
     color: #9C7E46;
@@ -38,47 +36,54 @@ html{
    /* LOGO */
    .logo {
     display: inline-block;
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
+        position: absolute;
+        left: 10px;
+        top: 0px;
    }
    .logo img{
-    width: 6rem;
-    padding-right: 0.5rem;
+    width: 100px;
    }
    /* NAVBAR MENU */
    .menu {
     display: flex;
-    gap: 0rem;
-    font-size: 2rem;
+    gap: 1em;
+    font-size: 18px;
    }
    .menu li {
-    padding: 1rem 4rem 1rem;
+    padding: 1px 9px 5px;
    }
    .regi{
     display: flex;
+    background-color: gold;
     color: #452865;
-    margin-bottom: 0rem;
+    border-radius: 5px;
+    border: 2px solid gold;
+    margin-bottom: 30px;
    }
    .container{
     display: flex;
    }
    .v{
     position: relative;
-    width: 30rem;
+    width: 30%;
+    margin: 5px, 5px 5px 5px;
    }
    .p{
     position: relative;
-    width: 30rem;
+    width: 30%;
+    margin: 5px, 5px 5px 5px;
 
    }
 .bw{
-  display: block;
-  margin-top: 1rem;
-  width: 43rem;
-  height: 26rem;
-  border-radius: 12rem;
-   
+    display: block;
+    margin-top: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+   width: 40%;
+  height: 20%;
+
+  border-radius: 30px;
+
 }
 .bw {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
@@ -93,7 +98,6 @@ html{
       -webkit-transform: scale(1.01);
     }
 
-    h2{
+    p{
       text-align: center;
-      
     }
